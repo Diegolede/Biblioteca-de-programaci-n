@@ -1,0 +1,127 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #151515;
+    --card-bg: #ffffff;
+    --card-border: #e5e7eb;
+    --button-bg: #e5e7eb;
+    --button-text: #374151;
+    --text-color-clear: #222222;
+  }
+  
+  
+  body {
+    font-family: "Poppins", "Nunito";
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding: 70px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding: 150px 0px 30px;
+  }
+  
+  #darkModeToggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--button-bg);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--button-text);
+  }
+  
+  #bookList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0px 0px 100px 0px;
+  }
+  
+  .book-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .book-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .book-description {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  button,
+  .download-book {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  button svg,
+  .download-book svg {
+    margin-left: 5px;
+  }
+  
+  .container p {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid var(--card-border);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  
