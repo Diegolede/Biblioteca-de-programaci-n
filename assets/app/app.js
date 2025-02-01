@@ -37,6 +37,42 @@ const books = [
       description: "Está compilado a partir de la documentación de Stack Overflow y escrito por los miembros de esta comunidad.",
       filePath: "assets/books/TypeScriptParaProfesionales.pdf",
     },
+    {
+      title: "Git para profesionales",
+      author: "GoalKicker",
+      description: "Contiene más de 100 páginas con consejos y trucos avanzados sobre Git diseñados específicamente para los desarrolladores expertos.",
+      filePath: "assets/books/Gitparaprofesionales.pdf",
+    },
+    {
+      title: "NodeJS para profesionales",
+      author: "GoalKicker",
+      description: "Guía práctica que aborda soluciones avanzadas para desarrolladores Node.js, con énfasis en manejo eficiente de recursos y optimización para servidores bajo carga.",
+      filePath: "assets/books/NodeJSparaprofesionales.pdf",
+    },
+    {
+      title: "MongoDB para profesionales",
+      author: "GoalKicker",
+      description: "Más de 60 páginas de consejos y trucos avanzados relacionados con MongoDB.",
+      filePath: "assets/books/MongoDBPara profesionales.pdf",
+    },
+    {
+      title: "PHP para profesionales",
+      author: "GoalKicker",
+      description: "Más de 400 páginas de consejos y trucos avanzados relacionados con PHP.",
+      filePath: "assets/books/PHPparaprofesionales.pdf",
+    },
+    {
+      title: "PowerShell para profesionales",
+      author: "GoalKicker",
+      description: "Más de 100 páginas de consejos y trucos avanzados relacionados con PowerShell.",
+      filePath: "assets/books/PowerShellparaprofesionales.pdf",
+    },
+    {
+      title: "jQuery para profesionales",
+      author: "GoalKicker",
+      description: "Más de 50 páginas de consejos y trucos avanzados relacionados con jQuery.",
+      filePath: "assets/books/jQueryNotesparaprofesionales.pdf",
+    },
   ]
   
   document.addEventListener("DOMContentLoaded", () => {
